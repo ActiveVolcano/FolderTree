@@ -1,9 +1,10 @@
 # FolderTree
 
-Exports the entire directory tree of a folder to an Excel .xlsx spreadsheet and to a .csv file.
+Exports the entire directory tree of a folder to a .csv file.
 
-The generated files list all the folders and files inside a specific folder into a hierarchical structure.
+The generated .csv file lists all the folders, files and their length inside a specific folder into a hierarchical structure.
 
-The FolderTree.exe file was generated with PS2EXE-GUI (details: https://gallery.technet.microsoft.com/scriptcenter/PS2EXE-GUI-Convert-e7cb69d5 and https://github.com/MScholtes/TechNet-Gallery)
-
-Detailed description and how-to for FolderTree can be found here: https://www.digitalcitizen.life/how-export-directory-tree-folder-windows/
+The Folder path and the .csv file path are provided via command line parameters like:
+```ps1
+.\FolderTree.ps1 E:\ D:\tree.csv
+```
